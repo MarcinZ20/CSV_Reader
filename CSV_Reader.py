@@ -1,5 +1,5 @@
 import pandas as pd
-import os
+from sys import platform
 from pathlib import Path
 
 class CSV_Reader:
@@ -74,8 +74,12 @@ class CSV_Reader:
 
     def change_order_of_cols(self, new_order: list, dir_path: str, file_name: str) -> None:
         
-        extension = ".csv"
-        path = dir_path + '/' + file_name + extension 
+        if platform == "win32":
+            sep = '\\'
+        else: 
+            sep = '/'
+
+        path = dir_path + sep + file_name + ".csv" 
 
         if not Path(dir_path).exists():
             raise ValueError("Path doesn't exist ...")
