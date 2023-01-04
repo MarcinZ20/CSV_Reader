@@ -1,7 +1,9 @@
 # CSV Reader
 
 Hi!  👋
+
 This is a simple app to help you deal with **.csv** files. 
+
 It's written in python and based on a very popular Pandas module.
 
 
