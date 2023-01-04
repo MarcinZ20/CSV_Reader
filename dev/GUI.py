@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from CSV_Reader import CSV_Reader
+from CsvReader import CSV_Reader
 
 
 class GUI():

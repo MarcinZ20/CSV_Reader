@@ -1,5 +1,4 @@
-from gui import GUI
-import pandas as pd
+from GUI import GUI
 
 def main():
     GUI.run()
