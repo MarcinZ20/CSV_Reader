@@ -1,9 +1,8 @@
-from CSV_Reader import CSV_Reader
+from gui import GUI
 import pandas as pd
 
 def main():
-    pass
-
+    GUI.run()
 
 if __name__ == "__main__":
     main()
