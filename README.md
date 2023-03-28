@@ -1,6 +1,5 @@
 # CSV Reader
 
-Hi!  👋
 
 This is a simple app to help you deal with **.csv** files. 
 
